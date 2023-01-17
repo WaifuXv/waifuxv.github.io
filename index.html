@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CYDTX9VD2P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CYDTX9VD2P');
+</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS/Index.css" rel="stylesheet">
+    <script src="JS/index.js"></script>
     <title>WAIFU</title>
 </head>
 <body> 
+    <div class="prueba"></div>
     <div class="contenedor-left">
     <header>
         <h1 class="title">Walkthrough</h1>
     </header>
     <main>
-       
         <div class="temas">
             <img src="IMG/Perfil.jpg" alt="Imagen de Perfil" class="perfil">
             <h1 class="name">WaifuXv</h1>
-            <div class="redes">
-                <a href="#" class="discord">Discord</a>
-                <a href="#" class="gmail">Gmail</a>
-                <a href="#" class="github">GitHub</a>
-                <a href="#" class="htb">Hack The Box</a>
-            </div>
+
             <h2 class="tema-1">STARTING POINT</h2>
             <div class="tier-0">
-                <p href="#" class="Walkthrough-Meow">Meow</p>
+                <p href="HTML/Walkthrough-Meow.html" class="Walkthrough-Meow">Meow</p>
                 <p href="#" class="Walkthrough-Fawm">Fawn</p>
                 <p href="#" class="Walkthrough-Redeemer">Redeemer</p>
                 <p href="#" class="Walkthrough-Dancing">Dancing</p>
            </div>
         </div>
-        <!-- <div class="sobre-mi">
-        <p class="Quien-soy">
-            Me presento soy Waifu, tengo 17 años y mi pasión es el mundo del hacking ético. <br>
-
-            Me considero una persona productiva, curiosa y apasionada por aprender cosas nuevas sobre ciberseguridad sy tecnología. Trabajo duro para alcanzar mis objetivos y siempre estoy buscando desafíos y oportunidades para desarrollarme en este campo. Además me gusta trabajar en equipo y colaborar con otros para lograr alcanzar mis objetivos. <br>
-            
-            En mi tiempo libre, continuo mi formación en temas relacionados con seguridad informática y hacking ético, ya que me apasiona y me motiva a seguir aprendiendo y mejorando en este campo. <br>
-            
-            Espero tener la oportunidad de aplicar mis habilidades y conocimientos en un entorno profesional para contribuir a mejorar la seguridad en línea. <br>
-            s
-            ATTE: WaifuXv</p>
-        </div> -->
     </main>
-    <footer></footer>
+    <footer>
+        <p id="clicker" onclick="showTextAndChangeColor()">
+            ¿Quien soy?
+        </p>
+        <div id="Quien-soy">
+            Me presento, soy Waifu, tengo 17 años y mi pasión es el mundel hacking ético. Me considero una persona productiva, curioy apasionada por aprender cosas nuevas sobre ciberseguridadtecnología, trabajo duro para alcanzar mis objetivos y siempestoy buscando desafíos y oportunidades para desarrollarme este campo. Me gusta trabajar en equipo y colaborar con otrpara lograr alcanzar mis objetivos. En mi tiempo libre, siformándome en seguridad informática y hacking ético, ya que apasiona y me motiva a seguir aprendiendo y mejorando en escampo. Espero tener la oportunidad de aplicar mis habilidadesconocimientos en un entorno profesional para contribuirmejorar la seguridad en línea.
+            <br> <br> ATTE: WaifuXv
+        </div>
+        <div class="redes">
+            <a href="#" class="discord">Discord</a>
+            <a href="#" class="gmail">Gmail</a>
+            <a href="#" class="github">GitHub</a>
+            <a href="#" class="htb">Hack The Box</a>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

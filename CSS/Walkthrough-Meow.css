@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cabin:ital@1&family=Roboto+Condensed:ital@1&family=Roboto+Mono:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+
+/*
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Cabin', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+*/
+
+/* Body */
+body{
+    background-color: #202124;
+    color: white;
+}

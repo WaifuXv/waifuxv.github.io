@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cambio de color y texto</title>
+</head>
+<body>
+  <p id="texto">Haz clic aquí</p>
+  <script>
+    function cambiarColor() {
+        var texto = document.getElementById("texto");
+        texto.style.color = "red";
+        texto.innerHTML = "Texto cambiado";
+    }
+    document.getElementById("texto").onclick = cambiarColor;
+  </script>
+</body>
+</html>
