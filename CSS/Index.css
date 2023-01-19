@@ -58,6 +58,7 @@ header{
 .perfil{
     border-radius: 10rem;
     width: 12rem;
+    height: 12rem;
     position: absolute;
     top: 5%;
     left: 3%;
@@ -88,52 +89,48 @@ header{
     right: 74%;
     font-size: 1.5rem;
     font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.4rem;
 }
 
-/* Walkthrough */
-.Walkthrough-Meow{
-    transform: scale(1.3);
-    margin: 8px 0px;
-    transition: transform 0.5s;
-}
-.Walkthrough-Meow:hover{
-    transform: scale(1.4);
-    cursor: pointer;
-    color: #518be4;
+.D-None{
+    text-decoration: none;
+    transform: scale(1.2);
+    color: #c88dcf;
 }
 
-.Walkthrough-Fawm{
-    transform: scale(1.3);;
-    transition: transform 0.5s;
-    margin: 8px 0px;
-}
-.Walkthrough-Fawm:hover{
+.hover-dn{
+    color: #c88dcf;
     transform: scale(1.4);
-    cursor: pointer;
-    color: #518be4;
 }
 
-.Walkthrough-Dancing{
-    transform: scale(1.3);
-    transition: transform 0.5s;
-    margin: 8px 0px;
-}
-.Walkthrough-Dancing:hover{
-    transform: scale(1.4);
-    cursor: pointer;
-    color: #518be4;
+.clicked-dn{
+    color: blue;
+    transform: scale(1.5);
 }
 
-.Walkthrough-Redeemer{
-    transform: scale(1.3);
-    transition: transform 0.5s;
-    margin: 8px 0px;
+/* Yes or No */
+button{
+    padding: 0rem 0rem;
+    border-radius: 2rem;
 }
-.Walkthrough-Redeemer:hover{
-    transform: scale(1.4);
+
+#confirm-container button{
+    background: transparent;
+    margin: 0rem 3rem;
+    border: none;
+    outline: none;
     cursor: pointer;
-    color: #518be4;
+ }
+
+img{
+    width: 36px;
+    height: 36px;
 }
+  
 /*TIER 0 END*/
 
 .sobre-mi{
@@ -145,19 +142,15 @@ header{
 }
 
 /* Footer */
-#clicker{
+.clicker-me{
     font-family: 'Merriweather Sans', sans-serif;
+    color: #c88dcf;
     position: absolute;
     top: 30%;
-    left: 1%
-}
-
-#clicker:hover{
-    cursor: pointer;
+    left: 1%;
 }
 
 #Quien-soy{
-    display: none;
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     top: 35%;
