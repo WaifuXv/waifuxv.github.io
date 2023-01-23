@@ -1,2 +1,2 @@
 # waifuxv.github.io
-Maquianas resueltas de Hack The Box en formato PDF todo explicato su vulneravilidad, como solucionarlo, como explotarlo, etc.
+Descubre las soluciones de las máquinas de Hack The Box en un formato PDF innovador en mi sitio web. ¡Mira por ti mismo lo fácil y detallado que son!
