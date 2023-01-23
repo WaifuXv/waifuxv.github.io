@@ -99,7 +99,7 @@ header{
 .D-None{
     text-decoration: none;
     transform: scale(1.2);
-    color: #c88dcf;
+    color: #ba1bcc;
 }
 
 .hover-dn{
@@ -108,7 +108,7 @@ header{
 }
 
 .clicked-dn{
-    color: blue;
+    color: #9f00b1;
     transform: scale(1.5);
 }
 
@@ -215,3 +215,12 @@ img{
     cursor: pointer;
     color: #c88dcf;
 }
+
+/* Media Queries */
+@media (max-width: 768px){
+    .contenedor-left, .prueba, .perfil, .name, .tema-1, .tier-0, .sobre-mi, .logo-img, .clicker-me, #Quien-soy, .redes{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    }
+     }
