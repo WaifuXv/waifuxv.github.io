@@ -49,7 +49,7 @@ function customphotobomb() {
     confirmButton.onclick = function() {
         container.remove();
         overlay.remove();
-        window.open('PDF/Descargar.pdf', '_blank');
+        window.open('PDF/Redaccion-Photobomb.pdf', '_blank');
         return true;
     };
     
