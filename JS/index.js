@@ -1,5 +1,4 @@
-// Codigo para la descarga de pdf
-
+ // Codigo para la descarga de pdf
 function customphotobomb() {  
     // Crear un contenedor para el cuadro de diálogo
     var container = document.createElement('div');
@@ -33,7 +32,7 @@ function customphotobomb() {
     document.body.appendChild(overlay);
 
     // Crear el título del cuadro de diálogo
-    var title = document.createElement('h2');
+    var title = document.createElement('god');
     title.innerHTML = 'Walkthrough Photo Bomb';
 
     // Crear un mensaje

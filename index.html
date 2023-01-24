@@ -14,43 +14,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS/Index.css" rel="stylesheet">
-    <script src="JS/index.js"></script>
-    <title>WAIFU</title>
+    <title>WaifuXv</title>
 </head>
 <body> 
-    <div class="prueba"></div>
-    <div class="contenedor-left">
+    <!-- HEADER -->
     <header>
-        <h1 class="title">Walkthrough</h1>
-    </header>
-    <main>
-        <div class="temas">
-            <img src="IMG/Perfil.jpg" alt="Imagen de Perfil" class="perfil">
-            <h1 class="name">WaifuXv</h1>
-            <h2 class="tema-1">STARTING POINT</h2>
+        <!-- NAV -->
+        <nav id="nav">
+            <div class="logo">
+                <img class="logo-title" src="IMG/Perfil.jpg" alt="Logo">
+                <h1 class="name">WaifuXv</h1>
+            </div>
+            <ul id="options">
+                <div class="opciones">
+                    <li>
+                        <a href="https://discordapp.com/users/692087772298739823" target="_blank" class="text-uppercase">Discord</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/WaifuXv" target="_blank" class="text-uppercase">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/waifu-xv-b1741823a/" target="_blank" class="text-uppercase">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="HTML/quien-soy.html" target="_blank" class="text-uppercase">¿Quien soy?</a>
+                    </li>
+                </div>
+            </ul>
+            <div class="menu" id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <!-- NAV -->
+
+        <!-- MAIN -->
+        <main>
+            <div class="main-fondo"> </div>
+            <div class="container">
+            <h2 class="tema-1">Walkthrough</h2>
             <div class="tier-0">
                 <a href="PDF/Redaccion-Photobomb.pdf" onclick="return customphotobomb(); changeStyleOnHoverClick();" class="D-None">Photo Bomb</a>
-                <a href="PDF/Descargar.pdf" onclick="return customFawm();" class="D-None">Fawn</a>
-                <a href="PDF/Descargar.pdf" onclick="return customRedeemer();" class="D-None">Redeemer</a>
-                <a href="PDF/Descargar.pdf" onclick="return customDancing();" class="D-None">Dancing</a>
            </div>
-        </div>
-    </main>
-    <footer>
-        <p class="clicker-me">
-            ¿Quien soy?
-        </p>
-        <div id="Quien-soy">
-            Me presento, soy Waifu, tengo 17 años y mi pasión es el hacking ético. Me considero una persona productiva, curioy apasionada por aprender cosas nuevas sobre ciberseguridad, tecnología, trabajo duro para alcanzar mis objetivos y siempre estoy buscando desafíos y oportunidades para desarrollarme este campo. Me gusta trabajar en equipo y colaborar con otros. En mi tiempo libre, sigo formándome en seguridad informática y hacking ético, ya que me apasiona y me motiva a seguir aprendiendo y mejorando en este campo. Espero tener la oportunidad de aplicar mis habilidades y conocimientos en un entorno profesional para contribuir y mejorar la seguridad.
-            <br> <br> ATTE: WaifuXv
-        </div>
-        <div class="redes">
-            <a href="#" class="discord">Discord</a>
-            <a href="#" class="gmail">Gmail</a>
-            <a href="#" class="github">GitHub</a>
-            <a href="#" class="htb">Hack The Box</a>
-        </div>
-    </footer>
+        </main>
+        <!-- MAIN -->
+    </header>
+    <script src="JS/menu.js"></script>
+    <script src="JS/scroll.js"></script>
+    <script src="JS/index.js"></script>
 </div>
 </body>
 </html>
