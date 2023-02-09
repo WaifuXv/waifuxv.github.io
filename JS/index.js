@@ -125,7 +125,7 @@ function customphotobomb() {
     confirmButton.onclick = function() {
         container.remove();
         overlay.remove();
-        window.open('https://waifuxv.github.io/PDF/Redaccion-Stocker.pdf', '_blank');
+        window.open('../PDF/Redacción-Stocker.pdf', '_blank');
         return true;
     };
     
