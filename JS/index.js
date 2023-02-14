@@ -48,7 +48,7 @@ function customphotobomb() {
     confirmButton.onclick = function() {
         container.remove();
         overlay.remove();
-        window.open('/PDF/walkthrough-photobomb.pdf', '_blank');
+        window.open('https://waifuxv.github.io/PDF/walkthrough-photobomb.pdf', '_blank');
         return true;
     };
     
@@ -125,7 +125,7 @@ function customphotobomb() {
     confirmButton.onclick = function() {
         container.remove();
         overlay.remove();
-        window.open('/PDF/walkthrough-stocker.pdf', '_blank');
+        window.open('https://waifuxv.github.io/PDF/walkthrough-stocker.pdf', '_blank');
         return true;
     };
     

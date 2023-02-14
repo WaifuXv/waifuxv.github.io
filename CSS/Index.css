@@ -27,7 +27,7 @@ body{
 .name {
   position: static;
   top: 50%;
-  left: 25%;
+  left: 10%;
   transform: translate(-75%, -50%);
   font-family: cursive;
   color: hotpink;
@@ -231,15 +231,16 @@ h1, h2, h3, h4, h5, h6 {
     }
     .name {
       position: absolute;
-      top: 30%;
-      left: 50%;
+      top: 50%;
+      left: 10%;
       transform: translate(-50%, -70%);
       font-family: cursive;
       color: hotpink;
   }
     nav ul {
       position: initial;
-      clip-path: none; }
+      clip-path: none;
+      margin-left: 3%; }
       nav ul .opciones {
         flex-direction: row;
         justify-content: flex-end; }
@@ -346,8 +347,8 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (min-width: 768px) {
     .name {
       position: absolute;
-      top: 30%;
-      left: 50%;
+      top: 50%;
+      left: 10%;
       transform: translate(-50%, -70%);
       font-family: cursive;
       color: hotpink;
